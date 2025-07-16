@@ -160,7 +160,7 @@ class Header extends Component {
           </thead>
           <tbody>
             {users.length === 0 ? (
-              <tr><td colSpan="5">No users</td></tr>
+              <tr><td colSpan="5"></td></tr>
             ) : (
               users.map((user, index) => (
                 <tr key={index}>
