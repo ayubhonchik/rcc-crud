@@ -100,7 +100,7 @@ class Header extends Component {
 
     return (
       <div className="container">
-        <h2 className="title">User CRUD Table</h2>
+        <h2 className="title">CRUD Table</h2>
         <button className="add-btn" onClick={() => this.openModal()}>+ Add User</button>
 
         {showModal && (
