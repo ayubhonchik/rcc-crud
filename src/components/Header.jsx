@@ -2,6 +2,21 @@ import React, { Component } from 'react';
 
 
 class Header extends Component {
+  constructor(){
+    super()
+    this.state = {
+    users: [],
+    showModal: false,
+    form: {
+      firstName: '',
+      lastName: '',
+      password: '',
+      confirmPassword: ''
+    },
+    error: '',
+    editingIndex: null
+  };
+  }
   state = {
     users: [],
     showModal: false,
