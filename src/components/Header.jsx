@@ -85,7 +85,6 @@ class Header extends Component {
     const newUser = { firstName, lastName, password };
 
     if (this.state.editingIndex !== null) {
-      // Edit
       const updatedUsers = [...this.state.users];
       updatedUsers[this.state.editingIndex] = newUser;
       this.setState({
